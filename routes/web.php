@@ -25,7 +25,7 @@ Route::get('/pinjamBarang', 'PeminjamanController@index');
 Route::get('/pengembalianBarang', 'PengembalianController@index');
 
 Route::post('/pinjamBarang', 'PeminjamanController@pinjam')->name('action');
-Route::post('/pengembalianBarang', 'PengembalianController@pengembalian')->name('action');
+Route::post('/pengembalianBarang', 'PengembalianController@pengembalian')->name('pengembalian');
 
 Route::get('/cetak_pdf/barangs', 'BarangController@cetak_pdf');
 Route::get('/export_excel/barangs', 'BarangController@export_excel');

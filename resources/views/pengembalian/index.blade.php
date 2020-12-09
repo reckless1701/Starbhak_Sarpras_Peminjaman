@@ -42,7 +42,7 @@
     <section id="hero2" class="d-flex align-items-center">
 
         <div class="container">
-            <form action="{{ route('action') }}" method="POST">
+            <form action="{{ route('pengembalian') }}" method="POST">
                 {{csrf_field()}}
                 <div class="row">
                     <div class="col-lg-12 pt-5 order-lg-1 d-flex flex-column justify-content-center">

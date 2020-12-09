@@ -20,7 +20,7 @@ class peminjamanController extends Controller{
             'id_barang' => $request ->barang,
             'status' => 'Di Pinjam'
         ]); 
-        return redirect('pinjamBarang');
+        return redirect('/');
     }
 }
 

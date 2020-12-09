@@ -84,9 +84,9 @@
                        
                             @foreach($barangs as $key)
                                     <option value="{{ $key->id }}">{{$key->nama}}</option>
-                            @if($key->stok < 0)
+                            <!-- @if($key->stok < 0)
                                 stok.hide();
-                            @endif
+                            @endif -->
                             @endforeach
                             
                         </select>

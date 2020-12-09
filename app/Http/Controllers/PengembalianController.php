@@ -16,7 +16,7 @@ class pengembalianController extends Controller{
             'nama_yangbalikin' => $request ->nama,
             'kelas_yangbalikin' => $request ->kelas
         ]); 
-        return redirect('pengembalianBarang');
+        return redirect('/');
     }
 }
 
